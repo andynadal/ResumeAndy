@@ -1,0 +1,7 @@
+# swiftgraphql.yml
+scalars:
+  Date: Date
+  DateTime: Date
+  Hex: String
+  Long: Double
+  RichTextAST: String

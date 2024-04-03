@@ -6,3 +6,33 @@
 //
 
 import Foundation
+
+public struct GetEducation: Queryable {
+    public init() { }
+    
+    public struct Output: Decodable, Identifiable {
+        public let startDate: Date
+        public let endDate: Date
+        public let title: String
+        public let description: String
+        public let institution: String
+        public let id: String
+    }
+    
+    public var operation: GraphQLOperation {
+        GraphQLOperation(
+        """
+        query Education {
+            educations {
+                description
+                endDate
+                id
+                institution
+                startDate
+                title
+            }
+        }
+        """
+        )
+    }
+}

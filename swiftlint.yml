@@ -1,0 +1,134 @@
+disabled_rules:
+    - trailing_whitespace
+    - nesting
+    - attributes
+    - force_unwrapping
+
+analyzer_rules:
+    - capture_variable
+    - explicit_self
+    - typesafe_array_init
+    - unused_declaration
+    - unused_import
+
+opt_in_rules:
+    - accessibility_label_for_image
+    - accessibility_trait_for_button
+    - array_init
+    - closure_end_indentation
+    - closure_spacing
+    - collection_alignment
+    - comma_inheritance
+    - contains_over_filter_count
+    - contains_over_filter_is_empty
+    - contains_over_first_not_nil
+    - contains_over_range_nil_comparison
+    - convenience_type
+    - discarded_notification_center_observer
+    - discouraged_assert
+    - discouraged_none_name
+    - empty_collection_literal
+    - empty_count
+    - empty_string
+    - enum_case_associated_values_count
+    - expiring_todo
+    - explicit_init
+    - extension_access_modifier
+    - fallthrough
+    - fatal_error_message
+    - file_name_no_space
+    - first_where
+    - flatmap_over_map_reduce
+    - force_unwrapping
+    - function_default_parameter_at_end
+    - ibinspectable_in_extension
+    - identical_operands
+    - implicit_return
+    - joined_default_parameter
+    - last_where
+    - legacy_multiple
+    - let_var_whitespace
+    - literal_expression_end_indentation
+    - local_doc_comment
+    - modifier_order
+    - multiline_arguments
+    - multiline_function_chains
+    - multiline_literal_brackets
+    - multiline_parameters
+    - nimble_operator
+    - nslocalizedstring_key
+    - operator_usage_whitespace
+    - optional_enum_case_matching
+    - pattern_matching_keywords
+    - prefer_self_type_over_type_of_self
+    - prefer_zero_over_explicit_init
+    - prefixed_toplevel_constant
+    - private_action
+    - private_outlet
+    - private_subject
+    - prohibited_interface_builder
+    - prohibited_super_call
+    - quick_discouraged_call
+    - quick_discouraged_focused_test
+    - quick_discouraged_pending_test
+    - reduce_into
+    - redundant_nil_coalescing
+    - redundant_type_annotation
+    - required_enum_case
+    - return_value_from_void_function
+    - self_binding
+    - single_test_class
+    - sorted_first_last
+    - static_operator
+    - strong_iboutlet
+    - switch_case_on_newline
+    - toggle_bool
+    - trailing_closure
+    - unavailable_function
+    - unneeded_parentheses_in_closure_argument
+    - untyped_error_in_catch
+    - vertical_parameter_alignment_on_call
+    - vertical_whitespace_closing_braces
+    - weak_delegate
+    - xct_specific_matcher
+    - yoda_condition
+
+excluded:
+    - ".*Tests\\.swift"
+    - "./RUUTServices/RUUTServices/GraphQL/.*.swift"
+
+line_length: 250
+
+type_body_length:
+    - 400 # warning
+    - 500 # error
+
+file_length:
+    warning: 900
+    error: 1200
+
+function_body_length:
+    warning: 75
+    error: 80
+
+type_name:
+    min_length: 3 # only warning
+    max_length: # warning and error
+        warning: 50
+        error: 60
+
+identifier_name:
+    min_length: # only min_length
+        warning: 1 # only warning
+        error: 2 # only error
+    max_length:
+        warning: 50
+        error: 60
+    excluded: # excluded via string array
+        - id
+        - URL
+        - GlobalAPIKey
+        - i
+        - x
+        - y
+    allowed_symbols: ["_"]

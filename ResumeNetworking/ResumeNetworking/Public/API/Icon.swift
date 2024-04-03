@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+public struct AppIcon: Decodable {
+    public let url: URL
+}

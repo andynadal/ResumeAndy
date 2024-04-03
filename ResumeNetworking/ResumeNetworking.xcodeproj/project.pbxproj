@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA41A78B2BA222FB008CBEA8 /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA41A78A2BA222FB008CBEA8 /* NetworkingError.swift */; };
+		BA4749FE2BBDB5320022B16C /* ResumeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4749FD2BBDB5320022B16C /* ResumeUtilities.framework */; };
+		BA74996C2BB1C6D900178A8D /* GraphQLOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA74996B2BB1C6D900178A8D /* GraphQLOperation.swift */; };
+		BA74996E2BB1C74D00178A8D /* URLSession+GraphQLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA74996D2BB1C74D00178A8D /* URLSession+GraphQLExtension.swift */; };
+		BA7499712BB1C79D00178A8D /* GetExperiences.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7499702BB1C79D00178A8D /* GetExperiences.swift */; };
+		BA7499732BB1C88600178A8D /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7499722BB1C88600178A8D /* Schema.swift */; };
 		BA8DA15A2B9F82CE0047A48C /* ResumeNetworking.docc in Sources */ = {isa = PBXBuildFile; fileRef = BA8DA1592B9F82CE0047A48C /* ResumeNetworking.docc */; };
 		BA8DA1602B9F82CE0047A48C /* ResumeNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8DA1552B9F82CE0047A48C /* ResumeNetworking.framework */; };
 		BA8DA1652B9F82CE0047A48C /* ResumeNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8DA1642B9F82CE0047A48C /* ResumeNetworkingTests.swift */; };
 		BA8DA1662B9F82CE0047A48C /* ResumeNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8DA1582B9F82CE0047A48C /* ResumeNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA3F8AA2BB325D4003B8DC7 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA3F8A92BB325D4003B8DC7 /* Tag.swift */; };
+		BAA3F8B12BB32F77003B8DC7 /* GetEducation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA3F8B02BB32F77003B8DC7 /* GetEducation.swift */; };
+		BAA3F8B92BB33559003B8DC7 /* GetApps.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA3F8B82BB33559003B8DC7 /* GetApps.swift */; };
+		BAA3F8BB2BB335AB003B8DC7 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA3F8BA2BB335AB003B8DC7 /* Icon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +34,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA41A78A2BA222FB008CBEA8 /* NetworkingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
+		BA4749FD2BBDB5320022B16C /* ResumeUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ResumeUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA74996B2BB1C6D900178A8D /* GraphQLOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLOperation.swift; sourceTree = "<group>"; };
+		BA74996D2BB1C74D00178A8D /* URLSession+GraphQLExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+GraphQLExtension.swift"; sourceTree = "<group>"; };
+		BA7499702BB1C79D00178A8D /* GetExperiences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetExperiences.swift; sourceTree = "<group>"; };
+		BA7499722BB1C88600178A8D /* Schema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schema.swift; sourceTree = "<group>"; };
 		BA8DA1552B9F82CE0047A48C /* ResumeNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ResumeNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8DA1582B9F82CE0047A48C /* ResumeNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResumeNetworking.h; sourceTree = "<group>"; };
 		BA8DA1592B9F82CE0047A48C /* ResumeNetworking.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ResumeNetworking.docc; sourceTree = "<group>"; };
 		BA8DA15F2B9F82CE0047A48C /* ResumeNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResumeNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8DA1642B9F82CE0047A48C /* ResumeNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeNetworkingTests.swift; sourceTree = "<group>"; };
+		BAA3F8A92BB325D4003B8DC7 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		BAA3F8B02BB32F77003B8DC7 /* GetEducation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetEducation.swift; sourceTree = "<group>"; };
+		BAA3F8B82BB33559003B8DC7 /* GetApps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetApps.swift; sourceTree = "<group>"; };
+		BAA3F8BA2BB335AB003B8DC7 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA4749FE2BBDB5320022B16C /* ResumeUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +71,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA74996F2BB1C79300178A8D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BA7499702BB1C79D00178A8D /* GetExperiences.swift */,
+				BAA3F8A92BB325D4003B8DC7 /* Tag.swift */,
+				BAA3F8B02BB32F77003B8DC7 /* GetEducation.swift */,
+				BAA3F8B82BB33559003B8DC7 /* GetApps.swift */,
+				BAA3F8BA2BB335AB003B8DC7 /* Icon.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		BA8DA14B2B9F82CE0047A48C = {
 			isa = PBXGroup;
 			children = (
 				BA8DA1572B9F82CE0047A48C /* ResumeNetworking */,
 				BA8DA1632B9F82CE0047A48C /* ResumeNetworkingTests */,
 				BA8DA1562B9F82CE0047A48C /* Products */,
+				BAEE5A6C2B9FD0FD00E4294A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +105,7 @@
 		BA8DA1572B9F82CE0047A48C /* ResumeNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				BAAB7E692B9F928C00E5A53F /* Public */,
 				BA8DA1582B9F82CE0047A48C /* ResumeNetworking.h */,
 				BA8DA1592B9F82CE0047A48C /* ResumeNetworking.docc */,
 			);
@@ -83,6 +118,26 @@
 				BA8DA1642B9F82CE0047A48C /* ResumeNetworkingTests.swift */,
 			);
 			path = ResumeNetworkingTests;
+			sourceTree = "<group>";
+		};
+		BAAB7E692B9F928C00E5A53F /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				BA74996F2BB1C79300178A8D /* API */,
+				BA41A78A2BA222FB008CBEA8 /* NetworkingError.swift */,
+				BA74996B2BB1C6D900178A8D /* GraphQLOperation.swift */,
+				BA74996D2BB1C74D00178A8D /* URLSession+GraphQLExtension.swift */,
+				BA7499722BB1C88600178A8D /* Schema.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		BAEE5A6C2B9FD0FD00E4294A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA4749FD2BBDB5320022B16C /* ResumeUtilities.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +168,8 @@
 			dependencies = (
 			);
 			name = ResumeNetworking;
+			packageProductDependencies = (
+			);
 			productName = ResumeNetworking;
 			productReference = BA8DA1552B9F82CE0047A48C /* ResumeNetworking.framework */;
 			productType = "com.apple.product-type.framework";
@@ -162,6 +219,8 @@
 				Base,
 			);
 			mainGroup = BA8DA14B2B9F82CE0047A48C;
+			packageReferences = (
+			);
 			productRefGroup = BA8DA1562B9F82CE0047A48C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -194,7 +253,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAA3F8AA2BB325D4003B8DC7 /* Tag.swift in Sources */,
+				BAA3F8B12BB32F77003B8DC7 /* GetEducation.swift in Sources */,
+				BA7499732BB1C88600178A8D /* Schema.swift in Sources */,
 				BA8DA15A2B9F82CE0047A48C /* ResumeNetworking.docc in Sources */,
+				BA74996C2BB1C6D900178A8D /* GraphQLOperation.swift in Sources */,
+				BA74996E2BB1C74D00178A8D /* URLSession+GraphQLExtension.swift in Sources */,
+				BA41A78B2BA222FB008CBEA8 /* NetworkingError.swift in Sources */,
+				BAA3F8B92BB33559003B8DC7 /* GetApps.swift in Sources */,
+				BAA3F8BB2BB335AB003B8DC7 /* Icon.swift in Sources */,
+				BA7499712BB1C79D00178A8D /* GetExperiences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +413,7 @@
 		BA8DA16A2B9F82CE0047A48C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -357,6 +425,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,7 +447,7 @@
 		BA8DA16B2B9F82CE0047A48C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -390,6 +459,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -411,6 +481,7 @@
 		BA8DA16D2B9F82CE0047A48C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7QNLA2YVU8;
@@ -427,6 +498,7 @@
 		BA8DA16E2B9F82CE0047A48C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7QNLA2YVU8;

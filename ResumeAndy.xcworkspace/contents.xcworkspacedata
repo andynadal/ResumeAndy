@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Obfuscator.playground">
+   </FileRef>
+   <FileRef
+      location = "group:ResumeUtilities/ResumeUtilities.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ResumeNetworking/ResumeNetworking.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ResumeAndy/ResumeAndy.xcodeproj">
+   </FileRef>
+</Workspace>

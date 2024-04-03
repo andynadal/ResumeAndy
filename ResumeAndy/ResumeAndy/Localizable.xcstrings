@@ -1,7 +1,475 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-
+    "ABOUT" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This App showcases a simple implementation of several complex iOS programming patterns, use cases and technologies"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta app muestra diversas implementaciones simples, de múltiples patrones de programación de iOS."
+          }
+        }
+      }
+    },
+    "ABOUT-THIS-APP-HEADLINE" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About this App"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sobre esta App"
+          }
+        }
+      }
+    },
+    "ABOUT-TITLE" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Información"
+          }
+        }
+      }
+    },
+    "APP-ICON" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App icon"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Icono de App"
+          }
+        }
+      }
+    },
+    "APPS-TITLE" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apps"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apps"
+          }
+        }
+      }
+    },
+    "CONCURRENT-PROGRAMMING" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concurrent programming"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Programación concurrente"
+          }
+        }
+      }
+    },
+    "CONCURRENT-PROGRAMMING-BODY" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift's concurrency model, is the best way to insure good code readability and debugging."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El modelo de concurrencia de Swift, es la mejor forma de tener buenas prácticas y legibilidad, en cuanto a procesos asíncronos"
+          }
+        }
+      }
+    },
+    "CONTACT-TITLE" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contacto"
+          }
+        }
+      }
+    },
+    "EDUCATION-TITLE" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Education"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Educación"
+          }
+        }
+      }
+    },
+    "EXPERIENCE-TITLE" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Experience"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Experiencia"
+          }
+        }
+      }
+    },
+    "FEATURES-HEADLINE" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Features"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Funcionalidades"
+          }
+        }
+      }
+    },
+    "FRAMEWORK-BASED-PROGRAMMING" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Framework-based programming"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Programación en base a frameworks"
+          }
+        }
+      }
+    },
+    "FRAMEWORK-BASED-PROGRAMMING-BODY" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A framework-based design, allows C.L.E.A.N. code practices, in this case there's a utility and networking framework."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un patrón de diseño en base a frameworks, permite prácticas de código C.L.E.A.N., en este caso se utilizó un framework para utilidades y otro para servicios."
+          }
+        }
+      }
+    },
+    "GO-TO-APP-STORE" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to App Store"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ver en App Store"
+          }
+        }
+      }
+    },
+    "GRAPH-QL" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GraphQL"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GraphQL"
+          }
+        }
+      }
+    },
+    "GRAPH-QL-BODY" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This App uses a head-less CMS, to fetch the data this app shows on Experience, Apps and Education"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta app usa un CMS para obtener la información mostrada en Experiencia, Apps y Educación."
+          }
+        }
+      }
+    },
+    "INVESTORS" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Investors"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inversionistas"
+          }
+        }
+      }
+    },
+    "LOCALIZATION" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Localization"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Internacionalización"
+          }
+        }
+      }
+    },
+    "LOCALIZATION-BODY" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An international, scalable app must be ready for localization since the beginning, since the implementation is easy, and cost of changing it down-the-line is high."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un app de escala global, debe estar lista para ser la internacionalización, ya que trabajar desde el principio con ello en mente, evita re-trabajos costosos."
+          }
+        }
+      }
+    },
+    "MVVM-ARCHITECTURE" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MVVM Architecture"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arquitectura MVVM"
+          }
+        }
+      }
+    },
+    "MVVM-ARCHITECTURE-BODY" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MVVM using Combine is reactive, it can be used in both UIKit and SwiftUI, when used properly, it can avoid common programming errors and bugs, the thing to get right are data synchronizations"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usar MVVM junto con Combine es un patrón reactivo, que se puede usar tanto en UIKit como en SwiftUI, cuando se implementa de manera correcta, puede evitar muchos errores y bugs comunes, pero se tiene que conectar la información de manera correcta."
+          }
+        }
+      }
+    },
+    "PRESENT" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Present"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Presente"
+          }
+        }
+      }
+    },
+    "SECRET-OBFUSCATION" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Secret obfuscation"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ofuscación de secretos"
+          }
+        }
+      }
+    },
+    "SECRET-OBFUSCATION-BODY" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "As part of a continuous cybersecurity effort, apps must be ready for a reverse engineering attack, hence secrets, such as API keys, cannot be stored as strings, an obfuscater turns them into unreadable binary, the app decodes at runtime."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parte del esfuerzo continuo de cíber seguridad, las apps deben estar listas contra un ataque de ingeniería inversa, por lo tanto secretos como las llaves de una API, no pueden estar guardadas como un string, un ofuscador permite convertirlas a binary, que el app decodifique al correr el programa."
+          }
+        }
+      }
+    },
+    "TAB-ABOUT" : {
+      "comment" : "Main tab title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Información"
+          }
+        }
+      }
+    },
+    "TAB-APPS" : {
+      "comment" : "Main tab title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apps"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apps"
+          }
+        }
+      }
+    },
+    "TAB-CONTACT" : {
+      "comment" : "Main tab title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contacto"
+          }
+        }
+      }
+    },
+    "TAB-EDUCATION" : {
+      "comment" : "Main tab title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Education"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Educación"
+          }
+        }
+      }
+    },
+    "TAB-EXPERIENCE" : {
+      "comment" : "Main tab title",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Experience"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Experiencia"
+          }
+        }
+      }
+    }
   },
   "version" : "1.0"
 }

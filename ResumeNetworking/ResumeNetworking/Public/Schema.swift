@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+public protocol Queryable {
+    associatedtype Output: Decodable
+    
+    var operation: GraphQLOperation { get }
+}

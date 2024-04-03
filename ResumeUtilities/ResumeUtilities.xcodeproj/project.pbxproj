@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA4749F82BBDB3540022B16C /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4749F72BBDB3540022B16C /* Secrets.swift */; };
+		BA4749FA2BBDB4A30022B16C /* Obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4749F92BBDB4A30022B16C /* Obfuscator.swift */; };
+		BA4749FC2BBDB4DF0022B16C /* String+Sha256Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4749FB2BBDB4DF0022B16C /* String+Sha256Extension.swift */; };
 		BAAB7E492B9F8C1C00E5A53F /* ResumeUtilities.docc in Sources */ = {isa = PBXBuildFile; fileRef = BAAB7E482B9F8C1C00E5A53F /* ResumeUtilities.docc */; };
 		BAAB7E4F2B9F8C1C00E5A53F /* ResumeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAB7E442B9F8C1C00E5A53F /* ResumeUtilities.framework */; };
 		BAAB7E542B9F8C1C00E5A53F /* ResumeUtilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAB7E532B9F8C1C00E5A53F /* ResumeUtilitiesTests.swift */; };
@@ -24,6 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA4749F72BBDB3540022B16C /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		BA4749F92BBDB4A30022B16C /* Obfuscator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obfuscator.swift; sourceTree = "<group>"; };
+		BA4749FB2BBDB4DF0022B16C /* String+Sha256Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Sha256Extension.swift"; sourceTree = "<group>"; };
 		BAAB7E442B9F8C1C00E5A53F /* ResumeUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ResumeUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAB7E472B9F8C1C00E5A53F /* ResumeUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResumeUtilities.h; sourceTree = "<group>"; };
 		BAAB7E482B9F8C1C00E5A53F /* ResumeUtilities.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ResumeUtilities.docc; sourceTree = "<group>"; };
@@ -50,6 +56,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA4749F62BBDB3490022B16C /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				BA4749F72BBDB3540022B16C /* Secrets.swift */,
+				BA4749F92BBDB4A30022B16C /* Obfuscator.swift */,
+				BA4749FB2BBDB4DF0022B16C /* String+Sha256Extension.swift */,
+			);
+			path = Secrets;
+			sourceTree = "<group>";
+		};
 		BAAB7E3A2B9F8C1C00E5A53F = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +87,7 @@
 		BAAB7E462B9F8C1C00E5A53F /* ResumeUtilities */ = {
 			isa = PBXGroup;
 			children = (
+				BA4749F62BBDB3490022B16C /* Secrets */,
 				BAAB7E472B9F8C1C00E5A53F /* ResumeUtilities.h */,
 				BAAB7E482B9F8C1C00E5A53F /* ResumeUtilities.docc */,
 			);
@@ -195,6 +212,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAAB7E492B9F8C1C00E5A53F /* ResumeUtilities.docc in Sources */,
+				BA4749F82BBDB3540022B16C /* Secrets.swift in Sources */,
+				BA4749FA2BBDB4A30022B16C /* Obfuscator.swift in Sources */,
+				BA4749FC2BBDB4DF0022B16C /* String+Sha256Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +431,7 @@
 		BAAB7E5C2B9F8C1C00E5A53F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7QNLA2YVU8;
@@ -427,6 +448,7 @@
 		BAAB7E5D2B9F8C1C00E5A53F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7QNLA2YVU8;
